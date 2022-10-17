@@ -64,6 +64,13 @@ class MyCustomTabBar: UIViewController {
             self.btn4View.backgroundColor = UIColor.clear
             self.btn5View.backgroundColor = UIColor.clear
             self.btn6View.backgroundColor = UIColor.clear
+            self.buttons[0].setImage(UIImage(named: "t1"), for: .normal)
+            self.buttons[1].setImage(UIImage(named: "u2"), for: .normal)
+            self.buttons[2].setImage(UIImage(named: "u3"), for: .normal)
+            self.buttons[3].setImage(UIImage(named: "u4"), for: .normal)
+            self.buttons[4].setImage(UIImage(named: "u5"), for: .normal)
+            self.buttons[5].setImage(UIImage(named: "u6"), for: .normal)
+           
         }else if selectedIndex == 1{
             self.btn1View.backgroundColor = UIColor.clear
             self.btn2View.backgroundColor = selectedBtnColor
@@ -71,6 +78,14 @@ class MyCustomTabBar: UIViewController {
             self.btn4View.backgroundColor = UIColor.clear
             self.btn5View.backgroundColor = UIColor.clear
             self.btn6View.backgroundColor = UIColor.clear
+            
+            self.buttons[0].setImage(UIImage(named: "u1"), for: .normal)
+            self.buttons[1].setImage(UIImage(named: "t2"), for: .normal)
+            self.buttons[2].setImage(UIImage(named: "u3"), for: .normal)
+            self.buttons[3].setImage(UIImage(named: "u4"), for: .normal)
+            self.buttons[4].setImage(UIImage(named: "u5"), for: .normal)
+            self.buttons[5].setImage(UIImage(named: "u6"), for: .normal)
+            
         }else if selectedIndex == 2 {
             self.btn1View.backgroundColor = UIColor.clear
             self.btn2View.backgroundColor = UIColor.clear
@@ -78,6 +93,12 @@ class MyCustomTabBar: UIViewController {
             self.btn4View.backgroundColor = UIColor.clear
             self.btn5View.backgroundColor = UIColor.clear
             self.btn6View.backgroundColor = UIColor.clear
+            self.buttons[0].setImage(UIImage(named: "u1"), for: .normal)
+            self.buttons[1].setImage(UIImage(named: "u2"), for: .normal)
+            self.buttons[2].setImage(UIImage(named: "t3"), for: .normal)
+            self.buttons[3].setImage(UIImage(named: "u4"), for: .normal)
+            self.buttons[4].setImage(UIImage(named: "u5"), for: .normal)
+            self.buttons[5].setImage(UIImage(named: "u6"), for: .normal)
         }else if selectedIndex == 3 {
             self.btn1View.backgroundColor = UIColor.clear
             self.btn2View.backgroundColor = UIColor.clear
@@ -85,6 +106,12 @@ class MyCustomTabBar: UIViewController {
             self.btn4View.backgroundColor = selectedBtnColor
             self.btn5View.backgroundColor = UIColor.clear
             self.btn6View.backgroundColor = UIColor.clear
+            self.buttons[0].setImage(UIImage(named: "u1"), for: .normal)
+            self.buttons[1].setImage(UIImage(named: "u2"), for: .normal)
+            self.buttons[2].setImage(UIImage(named: "u3"), for: .normal)
+            self.buttons[3].setImage(UIImage(named: "t4"), for: .normal)
+            self.buttons[4].setImage(UIImage(named: "u5"), for: .normal)
+            self.buttons[5].setImage(UIImage(named: "u6"), for: .normal)
         }else if selectedIndex == 4 {
             self.btn1View.backgroundColor = UIColor.clear
             self.btn2View.backgroundColor = UIColor.clear
@@ -92,13 +119,25 @@ class MyCustomTabBar: UIViewController {
             self.btn4View.backgroundColor = UIColor.clear
             self.btn5View.backgroundColor = selectedBtnColor
             self.btn6View.backgroundColor = UIColor.clear
+            self.buttons[0].setImage(UIImage(named: "u1"), for: .normal)
+            self.buttons[1].setImage(UIImage(named: "u2"), for: .normal)
+            self.buttons[2].setImage(UIImage(named: "u3"), for: .normal)
+            self.buttons[3].setImage(UIImage(named: "u4"), for: .normal)
+            self.buttons[4].setImage(UIImage(named: "t5"), for: .normal)
+            self.buttons[5].setImage(UIImage(named: "u6"), for: .normal)
         }else if selectedIndex == 5 {
-            self.btn1View.backgroundColor = selectedBtnColor
+            self.btn1View.backgroundColor = UIColor.clear
             self.btn2View.backgroundColor = UIColor.clear
             self.btn3View.backgroundColor = UIColor.clear
             self.btn4View.backgroundColor = UIColor.clear
             self.btn5View.backgroundColor = UIColor.clear
             self.btn6View.backgroundColor = selectedBtnColor
+            self.buttons[0].setImage(UIImage(named: "u1"), for: .normal)
+            self.buttons[1].setImage(UIImage(named: "u2"), for: .normal)
+            self.buttons[2].setImage(UIImage(named: "u3"), for: .normal)
+            self.buttons[3].setImage(UIImage(named: "u4"), for: .normal)
+            self.buttons[4].setImage(UIImage(named: "u5"), for: .normal)
+            self.buttons[5].setImage(UIImage(named: "t6"), for: .normal)
         }
         
         let previousVC = viewControllers[previousIndex]

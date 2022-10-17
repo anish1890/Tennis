@@ -39,6 +39,7 @@
 		F86E9F2628FA5B320084AE6A /* NotesableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E9F2528FA5B320084AE6A /* NotesableViewCell.swift */; };
 		F86E9F2828FA5CAC0084AE6A /* AddNewNoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E9F2728FA5CAC0084AE6A /* AddNewNoteVC.swift */; };
 		F86E9F2A28FA5CBA0084AE6A /* EditNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86E9F2928FA5CBA0084AE6A /* EditNoteViewController.swift */; };
+		F8D0870428FCE6FD00F7E7C7 /* TennisBetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0870328FCE6FD00F7E7C7 /* TennisBetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		F86E9F2528FA5B320084AE6A /* NotesableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesableViewCell.swift; sourceTree = "<group>"; };
 		F86E9F2728FA5CAC0084AE6A /* AddNewNoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewNoteVC.swift; sourceTree = "<group>"; };
 		F86E9F2928FA5CBA0084AE6A /* EditNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteViewController.swift; sourceTree = "<group>"; };
+		F8D0870328FCE6FD00F7E7C7 /* TennisBetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TennisBetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				449FD0B628F6EE6F0044EF3A /* TennisNotesVC.swift */,
 				F86E9F2728FA5CAC0084AE6A /* AddNewNoteVC.swift */,
 				F86E9F2928FA5CBA0084AE6A /* EditNoteViewController.swift */,
+				F8D0870328FCE6FD00F7E7C7 /* TennisBetViewController.swift */,
 				F862BC6D28FBB681000E865D /* MatchStatsVC.swift */,
 			);
 			path = Controller;
@@ -341,6 +344,7 @@
 				F862BC6828FB5161000E865D /* HistoryTennisViewController.swift in Sources */,
 				F862BC6E28FBB681000E865D /* MatchStatsVC.swift in Sources */,
 				449FD09928F6E27C0044EF3A /* SceneDelegate.swift in Sources */,
+				F8D0870428FCE6FD00F7E7C7 /* TennisBetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
